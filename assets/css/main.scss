@@ -102,20 +102,19 @@ details.flash {
 }
 
 .site-header-toggle {
-  display: none;
+  display: flex;
+  color: $gray-400;
 
   svg {
     width: 18px;
     height: 24px;
   }
 
-  @media (max-width: $width-md) {
-    display: flex;
-    color: $gray-400;
+  display: flex;
+  color: $gray-400;
 
-    &:hover {
-      color: $gray-300;
-    }
+  &:hover {
+    color: $gray-300;
   }
 }
 
